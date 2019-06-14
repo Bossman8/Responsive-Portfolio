@@ -147,3 +147,47 @@ input[type=text], select, textarea {
 .links a:hover::before{
     width: 100%;
 }
+@media screen and (max-width: 980px){
+    .main{
+        width: 650px;
+        left: 5%;
+    }
+    #name{
+        margin-left: 5%;
+        left: 5%;
+    }
+    .links{
+        margin-right: 5%;
+    }
+}
+@media screen and (max-width: 768px){
+    .main{
+        width: 718px;
+        left: 3%;
+    }
+    #name{
+        margin-left: 3%;
+        margin-bottom: 7%;
+    }
+}
+@media screen and (max-width: 640px){
+  
+    header{
+        position: static;
+        height: 140px;
+    }
+    .main{
+        width: 600px;
+        left: 3%;
+    }
+    footer{
+        width: 100%
+    }
+    .links{
+        margin-right: 35%;
+    }
+    #name{
+        width: 100%;
+        margin: 0%;
+    }
+}
